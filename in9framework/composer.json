@@ -1,0 +1,22 @@
+{
+    "name": "in9/in9framework",
+    "description": "Framework de utilização geral, ainda não temos um grande acervo, porém com o tempo vamos criado e disponibilizando outras ferramentas para utilização geral.",
+    "require": {
+        "respect/validation": "0.9.3"
+    },
+
+    "authors": [
+        {
+            "name": "Gabriel Mendonça",
+            "email": "gabrielmendoncanf@gmail.com"
+        },
+        {
+            "name": "Wallace Silva",
+            "email": "aliga12@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {"In9\\": "src/"}
+    }
+}

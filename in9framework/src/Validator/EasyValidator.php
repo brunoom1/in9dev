@@ -1,7 +1,15 @@
 <?php
+namespace In9\Validator;
 
-namespace App\Helper;
+/**
+ * @uses Respect\Validation\Validator
+ */
+
 use Respect\Validation\Validator as v;
+
+/**
+ * Classe criada para facilitar a validação de dados vindos de formulários.
+ */
 
 class EasyValidator{
 
@@ -68,7 +76,7 @@ class EasyValidator{
 
 	public static function validator($data, $except=[], $funcs = []){
 		$errors = [];
-		$validator = new Validator();
+		$validator = new EasyValidator();
 
 		if($data){
 			foreach($data as $key => $value){
